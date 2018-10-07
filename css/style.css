@@ -1,0 +1,91 @@
+#dessins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#aquarium-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#c2:hover {
+    cursor: pointer;
+}
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    color: #757575;
+}
+
+button:hover {
+    color: #222;
+}
+
+#chat h4 {
+    text-align: center;
+    margin: 0 0 30px;
+    padding: 15px;
+    color: white;
+    background-color: blue;
+}
+
+#chat {
+    border: solid 2px blue;
+    width: 600px;
+
+}
+#communication{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user{
+    color: blue;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.content{
+    font-size: 18px;
+    color: #757575;
+    font-family: "DejaVu Sans";
+}
+
+#input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#input input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: blue;
+    border-bottom: 1px solid;
+}
+#input_username{
+    width: 20%;
+    font-size: 30px;
+}
+#input_msg{
+    width: 80%  ;
+    font-size: 30px;
+}
+#messages{
+    max-height: 1350px;
+    overflow: auto;
+}
+.message{
+    margin-bottom: 10px;
+}
+
+.user{
+    float: left;
+}
